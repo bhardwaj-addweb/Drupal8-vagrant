@@ -7,5 +7,4 @@ mysql
 mysql-db
 ./mysql-db
 home
-conf
-./.docker
+.docker
