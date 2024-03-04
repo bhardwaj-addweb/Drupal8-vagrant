@@ -1,4 +1,4 @@
-version: '2.0'
+version: '2.4'
 services:
   drupal:
     #image: kalpit/ultimatephpdev:7.0
@@ -8,7 +8,8 @@ services:
     # image: kalpit/ultimatephpdev:7.4
     #image: "kalpit/addweb:5.6"
     # image: bhardwaj2803/ultimatephpdev:8.0_latest
-    image: bhardwaj2803/ultimatephpdev:8.1
+    # image: bhardwaj2803/ultimatephpdev:8.1
+    image: craftcms/php-fpm:8.0
     volumes:
       - ./apache2.conf:/etc/apache2/apache2.conf:rw    
       - ./web:/var/www/html:rw
